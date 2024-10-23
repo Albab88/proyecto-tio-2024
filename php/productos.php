@@ -12,9 +12,9 @@
         <nav>
             <ul class="menu">
                 <li><a href="index.php">Inicio</a></li>
-                <li><a href="productos.php">Productos</a></li>
-                <li><a href="turnos.php">Turnos</a></li>
-                <li><a href="clientes.php">Clientes</a></li>
+                <li><a href="php/productos.php">Productos</a></li>
+                <li><a href="php/turnos.php">Turnos</a></li>
+                <li><a href="php/clientes.php">Clientes</a></li>
             </ul>
         </nav>
     </header>
@@ -54,10 +54,10 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Veterinaria XYZ - Todos los derechos reservados</p>
+        <p>&copy; 2024 Veterinaria San Andres - Todos los derechos reservados</p>
     </footer>
 
-    <script src="menu.js"></script>
-    <script src="carrito.js"></script> <!-- Enlazamos el archivo JS -->
+    <script src="js/menu.js"></script>
+    <script src="js/carrito.js"></script> 
 </body>
 </html>
