@@ -12,9 +12,9 @@
         <nav>
             <ul class="menu">
                 <li><a href="index.php">Inicio</a></li>
-                <li><a href="productos.php">Productos</a></li>
-                <li><a href="turnos.php">Turnos</a></li>
-                <li><a href="clientes.php">Clientes</a></li>
+                <li><a href="php/productos.php">Productos</a></li>
+                <li><a href="php/turnos.php">Turnos</a></li>
+                <li><a href="php/clientes.php">Clientes</a></li>
             </ul>
         </nav>
     </header>
