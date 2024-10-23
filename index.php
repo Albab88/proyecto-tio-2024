@@ -29,6 +29,6 @@
         <p>&copy; 2024 Veterinaria San Andres - Todos los derechos reservados</p>
     </footer>
 
-    <script src="menu.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
