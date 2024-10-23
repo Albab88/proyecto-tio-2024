@@ -15,4 +15,10 @@ class ClientesController {
 
     }
 
+    public function editarCliente($id_cliente){ 
+        
+        $cliente = $this->model->getCliente($id_cliente); 
+        $this->view->formEditarCliente($cliente);
+    }
+
 }
