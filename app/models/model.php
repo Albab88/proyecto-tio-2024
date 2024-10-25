@@ -195,6 +195,31 @@ class Model{
                 (47, 'Ropa para perros pequeños', 'Abrigo impermeable para perros pequeños', 350.00, 18),
                 (48, 'Ropa para perros medianos', 'Jersey de lana para perros medianos', 400.00, 20);
 
+                -- --------------------------------------------------------
+
+                --
+                -- Estructura de tabla para la tabla `turnos`
+                --
+
+                CREATE TABLE `turnos` (
+                `id` int(11) NOT NULL,
+                `nombre` varchar(20) NOT NULL,
+                `mascota` varchar(20) NOT NULL,
+                `fecha` date NOT NULL,
+                `hora` time NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
+
+                --
+                -- Volcado de datos para la tabla `turnos`
+                --
+
+                INSERT INTO `turnos` (`id`, `nombre`, `mascota`, `fecha`, `hora`) VALUES
+                (1, 'Mariana Pérez', 'Luna', '2024-11-02', '10:30:00'),
+                (2, 'Juan Gómez', 'Rex', '2024-11-03', '11:15:00'),
+                (3, 'Lucía Fernández', 'Bella', '2024-11-04', '09:00:00'),
+                (4, 'Carlos Díaz', 'Max', '2024-11-05', '14:45:00'),
+                (5, 'Ana Torres', 'Milo', '2024-11-06', '13:30:00');
+
                 --
                 -- Índices para tablas volcadas
                 --
@@ -216,6 +241,12 @@ class Model{
                 -- Indices de la tabla `productos`
                 --
                 ALTER TABLE `productos`
+                ADD PRIMARY KEY (`id`);
+
+                --
+                -- Indices de la tabla `turnos`
+                --
+                ALTER TABLE `turnos`
                 ADD PRIMARY KEY (`id`);
 
                 --
@@ -241,6 +272,12 @@ class Model{
                 MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
 
                 --
+                -- AUTO_INCREMENT de la tabla `turnos`
+                --
+                ALTER TABLE `turnos`
+                MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+                --
                 -- Restricciones para tablas volcadas
                 --
 
@@ -253,7 +290,8 @@ class Model{
 
                 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
                 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-                /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+                /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */; 
+
 
                 ";
             $this->db->query($sql);
