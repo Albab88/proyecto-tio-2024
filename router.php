@@ -3,6 +3,7 @@
     require_once 'app/controllers/clientes.controller.php';
     require_once 'app/controllers/productos.controller.php';
 
+
 define('BASE_URL', '//'.$_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']).'/');
 
 
@@ -16,20 +17,33 @@ $params = explode('/', $action); //
 
 $mascotascontroller = new MascotasController();
 $clientescontroller = new ClientesController();
-$prodcutoscontroller = new ProductosController();
+$productoscontroller = new ProductosController();
 
 switch ($params[0]) {
     case 'home':
-        $mascotascontroller->mostrarMascotas();
+        $clientescontroller->index();
+        break;
+    case 'mascotas':
+        $mascotascontroller->showMascotas();
         break;
     case 'stock':
-        $prodcutoscontroller->mostrarProductos();
+        $productoscontroller->mostrarProductos();
         break;
     case 'clientes':
         $clientescontroller->mostrarClientes();
         break;
+    case 'turnos':
+        $clientescontroller->mostrarTurnos();
+        break;
+    case 'agregarTurno':
+        $clientescontroller->reservarTurno();
+        break;
+    case 'descontarstock':
+        $productoscontroller->descontarStock();
+        break;
     
     default:
         
+        ?><img src="img/404.jpg" alt="..."><?php
         break;
 }

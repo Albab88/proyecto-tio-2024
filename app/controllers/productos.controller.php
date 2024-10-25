@@ -14,4 +14,13 @@ class ProductosController {
 
     }
 
+    public function mostrarProductos(){
+        $productos = $this->model->getProductos();
+        $this->view->showStock($productos);
+    }
+
+    public function descontarStock(){
+        
+    }
+
 }

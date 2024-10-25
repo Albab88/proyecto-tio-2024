@@ -16,6 +16,12 @@ class MascotasController {
         $this->view = new MascotasView();
     }
 
+    public function showMascotas() {
+        $mascotas = $this->modelMascotas->getMascotas();
+        $clientes = $this->modelClientes->getClientes();
+        $this->view->mostrarMascotas($mascotas,$clientes);
+    }
+
     public function editarHC($id_mascota){ 
         
         $mascota = $this->modelMascotas->getMascotaById($id_mascota); 

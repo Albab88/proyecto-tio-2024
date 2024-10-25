@@ -14,11 +14,21 @@ class ClientesController {
         $this->view = new ClientesView();
 
     }
-
-    public function editarCliente($id_cliente){ 
-        
-        $cliente = $this->model->getCliente($id_cliente); 
-        $this->view->formEditarCliente($cliente);
+    public function index(){
+        $this->view->showIndex();
     }
 
+    public function reservarTurno(){
+        $nombre = $_REQUEST['nombre'];
+        $animal = $_REQUEST['animal'];
+        $fecha = $_REQUEST['fecha'];
+        $hora = $_REQUEST['hora'];
+        $this->model->insertarReserva($nombre, $animal, $fecha, $hora);
+        header('Location: ' . BASE_URL . 'turnos');
+    }
+
+    public function mostrarTurnos(){
+        $turnos= $this->model->getTurnos();
+        $this->view->mostrarTurnos($turnos);
+    }
 }
