@@ -1,8 +1,6 @@
 <?php
 require_once('config/config.php');
 
-//Crea la conexión a la DB
-
 class Model{
 
     protected $db;

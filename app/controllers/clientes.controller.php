@@ -1,8 +1,6 @@
 <?php
-
 require_once 'app/models/clientes.model.php';
 require_once 'app/views/clientes.view.php';
-
 
 class ClientesController {
     private $model;
