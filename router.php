@@ -17,17 +17,29 @@ $params = explode('/', $action); //
 
 $mascotascontroller = new MascotasController();
 $clientescontroller = new ClientesController();
-$prodcutoscontroller = new ProductosController();
+$productoscontroller = new ProductosController();
 
 switch ($params[0]) {
     case 'home':
-        $mascotascontroller->showAnimales();
+        $clientescontroller->index();
+        break;
+    case 'mascotas':
+        $mascotascontroller->showMascotas();
         break;
     case 'stock':
-        $prodcutoscontroller->mostrarProductos();
+        $productoscontroller->mostrarProductos();
         break;
     case 'clientes':
         $clientescontroller->mostrarClientes();
+        break;
+    case 'turnos':
+        $clientescontroller->mostrarTurnos();
+        break;
+    case 'agregarTurno':
+        $clientescontroller->reservarTurno();
+        break;
+    case 'descontarstock':
+        $productoscontroller->descontarStock();
         break;
     
     default:
