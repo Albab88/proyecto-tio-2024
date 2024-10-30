@@ -1,0 +1,26 @@
+
+# Veterinaria San Andres - Backend
+
+Este backend para una aplicación de veterinaria está diseñado para gestionar eficientemente los datos de clientes, 
+mascotas y citas mediante el modelo MVC. Su estructura modular permite una administración clara de la lógica del negocio y las interacciones con la base de datos.
+
+## Propósito y Funcionalidad del Backend
+
+1. **Gestión de Datos**: 
+   - Modelos que representan clientes, mascotas, citas y sus relaciones.
+   - Lógica para CRUD (Crear, Leer, Actualizar, Eliminar) de clientes y citas.
+
+2. **Control de Citas y Servicios**:
+   - Programación y seguimiento de citas veterinarias.
+   - Manejo de tratamientos y servicios realizados a las mascotas.
+
+3. **Historial Médico**:
+   - Registro de tratamientos y observaciones médicas por mascota.
+   - Consulta rápida del historial para una atención más personalizada.
+
+## Estructura del Backend
+
+- **Modelos**: Define la estructura de los datos.
+- **Controladores**: Implementa la lógica para gestionar los datos de clientes, mascotas y citas.
+- **Configuración de Base de Datos**: Conexión y configuración para el almacenamiento de datos.
+
