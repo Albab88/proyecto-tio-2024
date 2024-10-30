@@ -1,1 +1,3 @@
 se crea este archivo para agregar informacion relevante sobre mi trabajo en la rama manuel-frontend
+se crearon paginas principales
+se agregaron estilos
