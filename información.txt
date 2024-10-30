@@ -1,7 +1,8 @@
 
-# Veterinaria - Backend (Modelo MVC)
+# Veterinaria San Andres - Backend
 
-Este es el backend para la aplicación de gestión de una clínica veterinaria, implementado en el modelo MVC. La estructura se centra en la lógica del negocio, el manejo de datos y la interacción con la base de datos para gestionar clientes, mascotas y citas.
+Este backend para una aplicación de veterinaria está diseñado para gestionar eficientemente los datos de clientes, 
+mascotas y citas mediante el modelo MVC. Su estructura modular permite una administración clara de la lógica del negocio y las interacciones con la base de datos.
 
 ## Propósito y Funcionalidad del Backend
 
