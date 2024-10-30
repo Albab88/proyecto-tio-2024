@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fondo claro para mayor contraste */
+}
+
+header {
+    background-color: #6a0dad; /* Color violeta */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+header h1{
+    color: white;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: white; /* Fondo blanco para las secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h1, h2 {
+    color: #6a0dad; /* Color violeta para los encabezados */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0; /* Color suave para los encabezados de tabla */
+}
+
+tr:hover {
+    background-color: #f9f9f9; /* Cambio de color al pasar el ratón por encima */
+}
+
+footer {
+    background-color: #6a0dad; /* Color violeta */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Cambiado a relative para no ser fijo */
+}
+
+form {
+    margin: 20px 0;
+}
+
+form input[type="text"], form input[type="email"], form input[type="date"], form input[type="time"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Bordes redondeados para campos de formulario */
+}
+
+form input[type="submit"] {
+    background-color: #6a0dad; /* Botón violeta */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px; /* Bordes redondeados para el botón */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5c0cb1; /* Color más oscuro al pasar el ratón */
+}
