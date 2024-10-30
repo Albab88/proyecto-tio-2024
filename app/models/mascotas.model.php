@@ -18,7 +18,7 @@
         $pdo = $this->crearConexion();
         $sql = "SELECT * FROM mascotas WHERE id = ?";
         $query = $pdo->prepare($sql);
-        $query->execute([$id_destino]);
+        $query->execute([$id_mascota]);
         $mascota = $query->fetch(PDO::FETCH_OBJ);
         return $mascota;
     }
