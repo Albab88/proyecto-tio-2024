@@ -1,0 +1,11 @@
+Documentación de pruebas/errores de Sitio Veterinaria
+
+Resumen de Pruebas/errores
+Este documento detalla las pruebas realizadas en el sitio para una veterinaria
+
+CP-001: Ingresar al sitio
+Fecha: 30/10/2024
+Descripción: Se trato de ingresar en un servidor local al sitio 
+Estado: Fallido.
+Comentarios: Se produjo un error fatal, ya que al leer el código se detecto la inexistencia de la vista del cliente.
+Posible solución: Codificar un archivo clientes.view.php, ya que el mismo es requerido en el controller.
