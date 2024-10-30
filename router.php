@@ -26,6 +26,10 @@ switch ($params[0]) {
     case 'mascotas':
         $mascotascontroller->showMascotas();
         break;
+    case 'hclinica':
+        $id_mascota =$params [1];
+        $mascotascontroller->mostrarHC($id_mascota);
+        break;
     case 'stock':
         $productoscontroller->mostrarProductos();
         break;
