@@ -21,7 +21,7 @@
     </header>
 
     <section>
-        <h2>Listado de Pacientes</h2>
+        <h2>LISTADO DE PACIENTES</h2>
         <table>
             <thead>
                 <tr>
