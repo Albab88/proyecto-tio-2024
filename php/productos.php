@@ -20,7 +20,7 @@
     </header>
     
     <section>
-        <h2>Listado de Productos</h2>
+        <h2>LISTADO DE PRODUCTOS</h2>
         <table>
             <thead>
                 <tr>
