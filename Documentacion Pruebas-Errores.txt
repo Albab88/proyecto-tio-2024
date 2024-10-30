@@ -13,5 +13,22 @@ Posible solución: Codificar un archivo clientes.view.php, ya que el mismo es re
 CP-002: Crear un turno valido
 Fecha: 30/10/2024
 Descripción: Se trato de crear un turno valido. 
-Estado: Fallido.
+Estado: Aprobado.
 Comentarios: Funciono correctamente.
+
+CP-003: Crear un turno con fecha invalida
+Fecha: 31/10/2024
+Descripción: Se trato de crear un turno con una fecha invalida, por ejemplo 32/10/2024. 
+Estado: Fallido.
+Comentarios: Al realizar el envió de solicitud de turno debería haber recibido un código de repuesta 400 y un mensaje de error, en cambio se obtuvo un 201 y el turno creado con éxito.
+Posible solución: Realizar una validación de fechas, a través de un input formato fecha.
+
+CP-004: Eliminar un cliente
+Fecha: 31/10/2024
+Descripción: Se trato de eliminar un cliente. 
+Estado: Aprobado.
+Comentarios: Funciono correctamente.
+
+
+
+
