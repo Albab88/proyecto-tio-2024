@@ -1,0 +1,4 @@
+La base de datos se autocompleta por medio de autodeploy
+
+Solo hay que crear en mySQL una base de datos llamada "db_veterinaria" y cuando el sitio se ejecute 
+generará las tablas automaticamente

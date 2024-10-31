@@ -1,0 +1,4 @@
+Ramiro-Tester
+
+En esta rama se realizo la simulación de lo que haría un tester
+Se trato de simular casos de pruebas y llevar la documentación correspondiente
