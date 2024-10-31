@@ -29,6 +29,7 @@
     <footer>
     <img src="images/veterinaria logo chico.jpg" alt="" widht="50px" height="50px">
         <p>&copy; 2024 Veterinaria San Andrés - Todos los derechos reservados</p>
+        <p>TRABAJO TIO - GRUPO B</p>
     </footer>
 
     <script src="js/menu.js"></script>
