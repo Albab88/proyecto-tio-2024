@@ -1,5 +1,0 @@
-Se decide de manera virtual y grupal cuales serán los roles que adoptará cada uno de los integrantes del proyecto:
-Frontend: Dualde, Manuel
-Backend: Rebainera, Maximiliano
-Tester: Sica, Ramiro
-Coordinador: Barragán, Alba
