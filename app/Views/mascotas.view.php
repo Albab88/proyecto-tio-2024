@@ -57,14 +57,14 @@ include_once './templates/footer.php';
 </head>
 <body>
     <header>
-        <h1>Veterinaria xyz</h1>
+    <img src="../img/veterinaria logo chico.jpg" width="200" alt="">
+        <h1>Veterinaria San Andrés</h1>
         <nav>
             <ul class="menu">
                 <li><a href="../home">Inicio</a></li>
                 <li><a href="../stock">Productos</a></li>
                 <li><a href="../turnos">Turnos</a></li>
-                <li><a href="../mascotas">Clientes</a></li>
-   
+                <li><a href="../mascotas">Mascotas</a></li>
             </ul>
         </nav>
     </header>
@@ -74,7 +74,8 @@ include_once './templates/footer.php';
             <?php echo $mascota->historia_clinica ?> 
         </section>
         <footer>
-            <p>&copy; 2024 Veterinaria San Andres - Todos los derechos reservados</p>
+        <img src="../img/veterinaria logo chico.jpg" width= "80" alt="">
+            <p>&copy; 2024 Veterinaria San Andrés - Todos los derechos reservados</p>
         </footer>
 
         <script src="../js/menu.js"></script>

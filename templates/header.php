@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-        <h1>Veterinaria xyz</h1>
+        <img src="img/veterinaria logo chico.jpg"  width="200" alt="">
+        <h1>Veterinaria San Andrés</h1>
         <nav>
             <ul class="menu">
                 <li><a href="home">Inicio</a></li>
