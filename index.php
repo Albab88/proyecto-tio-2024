@@ -23,7 +23,7 @@
     <section>
         <h2>Cuidado Profesional para tus Mascotas</h2>
         <p>En Veterinaria San Andres ofrecemos el mejor cuidado para tus mascotas. Contamos con servicios de vacunación, desparasitación, cirugía y más. A su vez, La veterinaria cuenta con un pet shop y ofrece una amplia variedad de alimentos para mascotas.</p>
-        <p>¡Nuestro equipo de profesionales está aquí para asegurar que tu mascota se mantenga sana y feliz.!</p>
+        <p>¡Confía en nuestros profesionales para cuidar la salud y felicidad de tu mascota!</p>
     </section>
 
     <footer>
