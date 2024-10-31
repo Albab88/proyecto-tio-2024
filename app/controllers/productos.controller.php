@@ -19,7 +19,12 @@ class ProductosController {
         $this->view->showStock($productos);
     }
 
-    public function descontarStock(){
+    public function descontarStock(){ 
+            $id = $_REQUEST['producto_id'];
+            $stock = $_REQUEST['stock'];
+            $this->model->descontarElemento($stock, $id);
+            header('Location: ' . BASE_URL . 'stock');
+
         
     }
 

@@ -28,6 +28,10 @@ class MascotasController {
         $this->view->formHistoriaClinica($mascota);
     }
 
+    public function mostrarHC($id_mascota){
+        $mascota = $this->modelMascotas->getMascotaById($id_mascota);
+        $this->view->mostrarHistoriaClinica($mascota);
+    }
     public function modificarHCMascota(){ 
             $id = $_REQUEST['id'];
             $historia_clinica = $_REQUEST['historia_clinica'];

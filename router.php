@@ -42,9 +42,6 @@ switch ($params[0]) {
     case 'agregarTurno':
         $clientescontroller->reservarTurno();
         break;
-    case 'descontarstock':
-        $productoscontroller->descontarStock();
-        break;
     
     default:
         

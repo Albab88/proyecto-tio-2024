@@ -26,7 +26,7 @@ class ProductosView {
                         <td class="precio"><?= $producto->precio; ?></td>
                         <td><?= $producto->stock; ?></td>
                         <td>
-                            <form action="descontarStock" method="POST">
+                            <form action="descontarstock" method="POST">
                                 <input type="hidden" name="producto_id" value="<?= $producto->id; ?>">
                                 <input type="hidden" name="stock" value='1'>
                                 <input type="hidden" name="precio" value="<?= $producto->precio; ?>">
