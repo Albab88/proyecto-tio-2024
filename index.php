@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-        <h1>Bienvenidos a Veterinaria XYZ</h1>
+    <img src="images/veterinaria logo chico.jpg" alt="" widht="90px" height="90px">
+    <h1>Bienvenidos a Veterinaria San Andrés</h1>
         <nav>
             <ul class="menu">
                 <li><a href="index.php">Inicio</a></li>
@@ -26,7 +27,8 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Veterinaria San Andres - Todos los derechos reservados</p>
+    <img src="images/veterinaria logo chico.jpg" alt="" widht="50px" height="50px">
+        <p>&copy; 2024 Veterinaria San Andrés - Todos los derechos reservados</p>
     </footer>
 
     <script src="js/menu.js"></script>
