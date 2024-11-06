@@ -1,10 +1,10 @@
 # VETERINARIA SAN ANDRÉS
 
 # Integrantes del grupo 
-Barragán, Alba -->  Coordinador del proyecto
-Dualde, Manuel -->  Desarrollador Frontend
-Rebainera, Maximiliano -->  Desarrollador Backend
-Sica, Ramiro -->  Tester
+### Barragán, Alba -->  Coordinador del proyecto
+### Dualde, Manuel -->  Desarrollador Frontend
+### Rebainera, Maximiliano -->  Desarrollador Backend
+### Sica, Ramiro -->  Tester
 
 # Despliegue
 
